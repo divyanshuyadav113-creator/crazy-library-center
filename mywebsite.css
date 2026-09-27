@@ -1,0 +1,21 @@
+body {
+    background-image: url("liabrary1 image.png");
+    background-size: cover;
+    background-position: center top;
+    font-family: Arial, sans-serif;
+}
+
+.library-header {
+    background-color: rgb(107, 84, 22);
+}
+
+.library1-header {
+    background-color: rgb(240, 241, 237);
+}
+
+h1 {
+    color: rgb(7, 5, 2);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, serif;
+    font-size: 36px;
+}

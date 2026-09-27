@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+    body {
+        margin: 1;
+    }
+    .header {
+        width: 100%;
+    }
+    .layout {
+        display: flex;
+        width: 100%;
+    }
+    .sidebar {
+        width: 25%;
+        height: 1000px;
+        border:none;
+    }
+    .main {
+        width: 75%;
+        height: 1000px;
+        border: none;
+    }
+</style>
+<head>
+    <title>CRAZY LIBRARY CENTER</title>
+    <link rel="stylesheet" href="mywebsite.css">
+</head>
+<body>
+    <table class="library-header" border="3" width="100%">
+        <tr align="center">
+            <td><img src="chatgpt img=crazy library.png" width= "75"></td>
+            <td><h1 align="center">CRAZY LIBRARY CENTER</h1></td>
+        </tr>
+</table><br>
+<table class="library1-header" border="1" width="100%" cellpadding="10">
+    <tr>
+        <th><a href="HOME LOGIN.html" target="main">LOGIN </a></th>
+        <th><a href="HOME.html" target="main">HOME </a></th>
+        <th><a href="HOME GRANTH.html" target="main">GRANTH </a></th>
+        <th><a href="HOME FORM.html" target="main">REGISTRATION</a></th>
+        <th><a href="HOME CART.html" target="main">CART</a></th>
+    </tr>
+</table>
+<br>
+<div class="layout">
+    <!-- Left side -->
+    <iframe
+        class="sidebar"
+        src="HOME SLIDE.html">
+    </iframe>
+    <!-- Right side -->
+    <iframe
+        class="main"
+        name="main"
+        src="HOME LOGIN.html">
+    </iframe>
+</div>
+</body>
+</html>
